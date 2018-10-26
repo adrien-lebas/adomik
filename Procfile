@@ -1,0 +1,1 @@
+worker: python trello_analytics_to_heroku.py
