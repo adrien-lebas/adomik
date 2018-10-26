@@ -85,9 +85,10 @@ def get_stats_per_list(data_file):
 
 def send_slack_message(msg) :
     
-    url = "https://slack.com/api/chat.postMessage?token=xoxp-2503013600-150008235968-385646432882-2e54524342a8c89a3082c36f53d819fe&channel=%23tech-teams&text="+msg+"&username=Scrum%20Bot&icon_url=https%3A%2F%2Fcdn4.iconfinder.com%2Fdata%2Ficons%2Fthefreeforty%2F30%2Fthefreeforty_target-512.png&pretty=1"
+    url = "https://slack.com/api/chat.postMessage?token=xoxp-2503013600-150008235968-465254622579-5736ddbc9bd2f156deaa382479376b4b&channel=test-adrien-vincent&text="+msg+"&username=Scrum%20Bot&icon_url=https%3A%2F%2Fcdn4.iconfinder.com%2Fdata%2Ficons%2Fthefreeforty%2F30%2Fthefreeforty_target-512.png&pretty=1"
     
     r = requests.post(url)
+    print(r)
 
 def create_message(data):
     now = datetime.datetime.now()
