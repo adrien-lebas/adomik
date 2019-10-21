@@ -20,7 +20,7 @@ requests==2.20.0
 singledispatch==3.4.0.3
 six==1.11.0
 tornado==5.1.1
-urllib3==1.24
+urllib3==1.24.2
 virtualenv==16.0.0
 websocket-client==0.53.0
 xattr==0.6.4
